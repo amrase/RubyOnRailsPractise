@@ -1,5 +1,8 @@
 class PagesController < ApplicationController
     def home
-        render html: 'Home'
     end 
+
+    def about
+
+    end    
 end
