@@ -1,5 +1,4 @@
-  <div id="page-content">
-  <h1 class="text-center mt-4">All Articles</h1>
+<h1 class="text-center mt-4">All Articles</h1>
     <div class="container">
         <% @articles.each do |article| %>
             <div class="row justify-content-md-center">
@@ -20,12 +19,11 @@
                             Created <%= time_ago_in_words(article.created_at) %> ago,
                             edited <%= time_ago_in_words(article.updated_at) %>  ago
                         </small>
-                    </div>
-                    </div>
-                </div>
+                 </div>
             </div>
-        <% end %>   
-    </div>
+        </div>
+     </div>
+<% end %>   
     
 
   
